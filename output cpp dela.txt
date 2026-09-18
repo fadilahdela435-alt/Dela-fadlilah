@@ -1,0 +1,21 @@
+==========================================
+     KALKULATOR NILAI AKHIR MAHASISWA
+==========================================
+Nama Mahasiswa : Dela fadlilah
+Nilai Tugas (30%) : 90
+Nilai UTS (30%)   : 90
+Nilai UAS (40%)   : 90
+
+==========================================
+              HASIL NILAI
+==========================================
+Nama Mahasiswa : Dela fadlilah
+Nilai Tugas    : 90
+Nilai UTS      : 90
+Nilai UAS      : 90
+Nilai Akhir    : 90.00
+Nilai Huruf    : A
+==========================================
+
+
+=== Code Execution Successful ===

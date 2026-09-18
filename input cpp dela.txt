@@ -1,0 +1,71 @@
+#include <iostream>
+#include <iomanip>
+#include <string>
+
+using namespace std;
+
+int main() {
+    // Deklarasi variabel
+    string nama;
+    float tugas, uts, uas;
+    float nilaiAkhir;
+    char nilaiHuruf;
+
+    // Judul program
+    cout << "==========================================" << endl;
+    cout << "     KALKULATOR NILAI AKHIR MAHASISWA" << endl;
+    cout << "==========================================" << endl;
+
+    // Input nama mahasiswa
+    cout << "Nama Mahasiswa : ";
+    getline(cin, nama);
+
+    // Input nilai
+    cout << "Nilai Tugas (30%) : ";
+    cin >> tugas;
+
+    cout << "Nilai UTS (30%)   : ";
+    cin >> uts;
+
+    cout << "Nilai UAS (40%)   : ";
+    cin >> uas;
+
+    // Menghitung nilai akhir
+    nilaiAkhir = (tugas * 0.3) + (uts * 0.3) + (uas * 0.4);
+
+    // Menentukan nilai huruf
+    if (nilaiAkhir >= 80) {
+        nilaiHuruf = 'A';
+    }
+    else if (nilaiAkhir >= 70) {
+        nilaiHuruf = 'B';
+    }
+    else if (nilaiAkhir >= 60) {
+        nilaiHuruf = 'C';
+    }
+    else if (nilaiAkhir >= 50) {
+        nilaiHuruf = 'D';
+    }
+    else {
+        nilaiHuruf = 'E';
+    }
+
+    // Menampilkan hasil
+    cout << endl;
+    cout << "==========================================" << endl;
+    cout << "              HASIL NILAI" << endl;
+    cout << "==========================================" << endl;
+
+    cout << "Nama Mahasiswa : " << nama << endl;
+    cout << "Nilai Tugas    : " << tugas << endl;
+    cout << "Nilai UTS      : " << uts << endl;
+    cout << "Nilai UAS      : " << uas << endl;
+
+    cout << fixed << setprecision(2);
+    cout << "Nilai Akhir    : " << nilaiAkhir << endl;
+    cout << "Nilai Huruf    : " << nilaiHuruf << endl;
+
+    cout << "==========================================" << endl;
+
+    return 0;
+}
