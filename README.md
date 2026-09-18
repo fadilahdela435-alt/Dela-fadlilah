@@ -1,2 +1,1 @@
-# Dela-fadlilah
-tugas pertemuan 1
+# tugas 1
